@@ -1,0 +1,12 @@
+C:\Users\Abd-Allah\source\repos\PicturePuzzleGame\PicturePuzzleGame\bin\Debug\PicturePuzzleGame.exe.config
+C:\Users\Abd-Allah\source\repos\PicturePuzzleGame\PicturePuzzleGame\bin\Debug\PicturePuzzleGame.exe
+C:\Users\Abd-Allah\source\repos\PicturePuzzleGame\PicturePuzzleGame\bin\Debug\PicturePuzzleGame.pdb
+C:\Users\Abd-Allah\source\repos\PicturePuzzleGame\PicturePuzzleGame\obj\Debug\PicturePuzzleGame.csproj.AssemblyReference.cache
+C:\Users\Abd-Allah\source\repos\PicturePuzzleGame\PicturePuzzleGame\obj\Debug\PicturePuzzleGame.FrmPuzzleGame.resources
+C:\Users\Abd-Allah\source\repos\PicturePuzzleGame\PicturePuzzleGame\obj\Debug\PicturePuzzleGame.Properties.Resources.resources
+C:\Users\Abd-Allah\source\repos\PicturePuzzleGame\PicturePuzzleGame\obj\Debug\PicturePuzzleGame.csproj.GenerateResource.cache
+C:\Users\Abd-Allah\source\repos\PicturePuzzleGame\PicturePuzzleGame\obj\Debug\PicturePuzzleGame.csproj.CoreCompileInputs.cache
+C:\Users\Abd-Allah\source\repos\PicturePuzzleGame\PicturePuzzleGame\obj\Debug\PicturePuzzleGame.exe
+C:\Users\Abd-Allah\source\repos\PicturePuzzleGame\PicturePuzzleGame\obj\Debug\PicturePuzzleGame.pdb
+C:\Users\Abd-Allah\source\repos\PicturePuzzleGame\PicturePuzzleGame\bin\Debug\Guna.UI2.dll
+C:\Users\Abd-Allah\source\repos\PicturePuzzleGame\PicturePuzzleGame\obj\Debug\PictureP.3E4DFFAF.Up2Date

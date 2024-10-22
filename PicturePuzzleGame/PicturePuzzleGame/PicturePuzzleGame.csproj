@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{70A66321-56E1-41D6-A236-1EC9383E7867}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PicturePuzzleGame</RootNamespace>
+    <AssemblyName>PicturePuzzleGame</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2">
+      <HintPath>..\..\..\..\..\..\Guna.UI-Framework-Lib-master\Guna.UI2 WinForms\.net 4.0\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmPuzzleGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPuzzleGame.Designer.cs">
+      <DependentUpon>FrmPuzzleGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmPuzzleGame.resx">
+      <DependentUpon>FrmPuzzleGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Original.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Null.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Car1.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Car2.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Car3.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Car4.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Car5.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Car6.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Car7.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Car8.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Car9.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Caroriginal.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dog.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dog1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dog2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dog3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dog4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dog5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dog6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dog7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dog8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dog9.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
