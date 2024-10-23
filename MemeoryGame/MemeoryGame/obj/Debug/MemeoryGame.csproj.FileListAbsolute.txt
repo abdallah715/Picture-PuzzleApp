@@ -1,0 +1,12 @@
+C:\Users\Abd-Allah\source\repos\MemeoryGame\MemeoryGame\bin\Debug\MemeoryGame.exe.config
+C:\Users\Abd-Allah\source\repos\MemeoryGame\MemeoryGame\bin\Debug\MemeoryGame.exe
+C:\Users\Abd-Allah\source\repos\MemeoryGame\MemeoryGame\bin\Debug\MemeoryGame.pdb
+C:\Users\Abd-Allah\source\repos\MemeoryGame\MemeoryGame\bin\Debug\Guna.UI2.dll
+C:\Users\Abd-Allah\source\repos\MemeoryGame\MemeoryGame\obj\Debug\MemeoryGame.csproj.AssemblyReference.cache
+C:\Users\Abd-Allah\source\repos\MemeoryGame\MemeoryGame\obj\Debug\MemeoryGame.Properties.Resources.resources
+C:\Users\Abd-Allah\source\repos\MemeoryGame\MemeoryGame\obj\Debug\MemeoryGame.csproj.GenerateResource.cache
+C:\Users\Abd-Allah\source\repos\MemeoryGame\MemeoryGame\obj\Debug\MemeoryGame.csproj.CoreCompileInputs.cache
+C:\Users\Abd-Allah\source\repos\MemeoryGame\MemeoryGame\obj\Debug\MemeoryG.9BBE6AD4.Up2Date
+C:\Users\Abd-Allah\source\repos\MemeoryGame\MemeoryGame\obj\Debug\MemeoryGame.exe
+C:\Users\Abd-Allah\source\repos\MemeoryGame\MemeoryGame\obj\Debug\MemeoryGame.pdb
+C:\Users\Abd-Allah\source\repos\MemeoryGame\MemeoryGame\obj\Debug\MemeoryGame.frmMainMemoryGame.resources
